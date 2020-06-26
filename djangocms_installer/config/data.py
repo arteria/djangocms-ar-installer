@@ -91,7 +91,8 @@ REQUIREMENTS = {
         'django-treebeard>=4.0,<5.0',
     ],
     'plugins-3.7': [
-        'djangocms-text-ckeditor>=3.7,<4.0',
+    #    'djangocms-text-ckeditor>=3.7,<4.0',
+        'djangocms-ar-redactor>=0.0.1,<0.1.0',
         'djangocms-link>=2.5,<2.7',
         'djangocms-icon>=1.4,<1.6',
         'djangocms-style>=2.2,<2.4',
@@ -103,8 +104,8 @@ REQUIREMENTS = {
         'djangocms-bootstrap4>=1.5,<1.7',
     ],
     'plugins-master': [
-        'https://github.com/divio/djangocms-text-ckeditor/archive/master.zip?{bust}'
-        ''.format(**bust),
+    #    'https://github.com/divio/djangocms-text-ckeditor/archive/master.zip?{bust}'
+    #    ''.format(**bust),
         'https://github.com/divio/djangocms-file/archive/master.zip?{bust}'.format(**bust),
         'https://github.com/divio/djangocms-link/archive/master.zip?{bust}'.format(**bust),
         'https://github.com/divio/djangocms-icon/archive/master.zip?{bust}'.format(**bust),
@@ -144,7 +145,8 @@ TEMPLATES = [
 
 PLUGIN_LIST_TEXT = """
 djangocms installer will install and configure the following plugins:
- * djangocms-text-ckeditor (Text plugin)
+ * -d-j-a-n-g-o-c-m-s----t-e-x-t---c-k-e-d-i-t-o-r- -(-T-e-x-t- -p-l-u-g-i-n-)-
+ * cmsplugin-redactor (arteria's Text plugin)
  * djangocms-link (Link plugin)
  * djangocms-file (File plugin)
  * djangocms-picture (Image plugin)

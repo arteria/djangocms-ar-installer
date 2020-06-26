@@ -69,26 +69,24 @@ FILER_PLUGINS_3 = (
     'easy_thumbnails',
     'djangocms_bootstrap4',
     'djangocms_bootstrap4.contrib.bootstrap4_alerts',
-    'djangocms_bootstrap4.contrib.bootstrap4_badge',
-    'djangocms_bootstrap4.contrib.bootstrap4_card',
+    #'djangocms_bootstrap4.contrib.bootstrap4_badge',
+    #'djangocms_bootstrap4.contrib.bootstrap4_card',
     'djangocms_bootstrap4.contrib.bootstrap4_carousel',
     'djangocms_bootstrap4.contrib.bootstrap4_collapse',
     'djangocms_bootstrap4.contrib.bootstrap4_content',
     'djangocms_bootstrap4.contrib.bootstrap4_grid',
-    'djangocms_bootstrap4.contrib.bootstrap4_jumbotron',
+    #'djangocms_bootstrap4.contrib.bootstrap4_jumbotron',
     'djangocms_bootstrap4.contrib.bootstrap4_link',
     'djangocms_bootstrap4.contrib.bootstrap4_listgroup',
-    'djangocms_bootstrap4.contrib.bootstrap4_media',
+    #'djangocms_bootstrap4.contrib.bootstrap4_media',
     'djangocms_bootstrap4.contrib.bootstrap4_picture',
     'djangocms_bootstrap4.contrib.bootstrap4_tabs',
     'djangocms_bootstrap4.contrib.bootstrap4_utilities',
     'djangocms_file',
-    'djangocms_icon',
     'djangocms_link',
     'djangocms_picture',
     'djangocms_style',
     'djangocms_snippet',
-    'djangocms_googlemap',
     'djangocms_video',
 )
 
@@ -97,7 +95,7 @@ CMS_3_HEAD = (
 )
 
 CMS_3_APPLICATIONS = (
-    'djangocms_text_ckeditor',
+    'djangocms_redactor',
 )
 
 REVERSION_APPLICATIONS = (

@@ -13,6 +13,7 @@ from django.views.static import serve
 admin.autodiscover()
 
 urlpatterns = [
+    url(r'^ar-redactor/', include('djangocms_redactor.urls')),
     url(r'^sitemap\.xml$', sitemap,
         {'sitemaps': {'cmspages': CMSSitemap}}),
 ]
